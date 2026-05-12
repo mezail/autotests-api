@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="325fee80-87b8-4f44-aa0f-415244c348f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/users/private_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +69,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+        <option value="bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515" />
       </set>
     </attachedChunks>
   </component>
@@ -84,8 +90,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/clients/authentication/authentication_client.py</url>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/httpx_get_user.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

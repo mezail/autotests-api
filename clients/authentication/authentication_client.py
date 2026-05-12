@@ -2,7 +2,7 @@ from typing import TypedDict
 
 from httpx import Response
 
-from clients.api_client import ApiClient
+from clients.api_client import APIClient
 
 from clients.public_http_builder import get_public_http_client # Импортируем builder
 
@@ -34,7 +34,7 @@ class RefreshRequestDict(TypedDict):
     refreshToken: str # Название ключа совпадает с API
 
 
-class AuthenticationClient(ApiClient):
+class AuthenticationClient(APIClient):
     """
     Клиент для работы с /api/v1/authentication
     """

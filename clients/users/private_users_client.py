@@ -5,6 +5,25 @@ from httpx import Response # для того чтобы возвращаемые
 from clients.api_client import APIClient # наследуемся от верхнеуровневого API клиента
 from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
 
+# Добавили описание структуры пользователя
+class User(TypedDict):
+    """
+    Описание структуры пользователя.
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+
+# Добавили описание структуры ответа получения пользователя
+class GetUserResponseDict(TypedDict):
+    """
+    Описание структуры ответа получения пользователя.
+    """
+    user: User
+
 class UpdateUserRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление пользователя.
@@ -54,6 +73,11 @@ class PrivateUsersClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(f"/api/v1/users/{user_id}")
+
+    # Добавили новый метод
+    def get_user(self, user_id: str) -> GetUserResponseDict:
+        response = self.get_user_api(user_id)
+        return response.json()
 
 # Добавляем builder для PrivateUsersClient
 def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
