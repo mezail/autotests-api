@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325fee80-87b8-4f44-aa0f-415244c348f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/files/image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/private_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
