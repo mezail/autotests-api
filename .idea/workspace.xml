@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325fee80-87b8-4f44-aa0f-415244c348f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_create_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_delete_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_get_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_update_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpxExamples/httpx_update_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
       <recent name="C:\Users\mikha\PycharmProjects\autotests-api\testdata\files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mikha\PycharmProjects\autotests-api\httpxExamples" />
       <recent name="C:\Users\mikha\PycharmProjects\autotests-api\clients\authentication" />
       <recent name="C:\Users\mikha\PycharmProjects\autotests-api\api-basic" />
     </key>
@@ -89,7 +92,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/httpx_get_user.py</url>
+          <url>file://$PROJECT_DIR$/httpxExamples/httpx_get_user.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
