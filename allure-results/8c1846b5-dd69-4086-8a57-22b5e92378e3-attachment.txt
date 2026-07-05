@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDE5OjI0OjQ3LjczMTE4NyIsInVzZXJfaWQiOiI4NWI4YjU5YS1jOWU1LTQxYjgtYjdmYy0wYjI5NTZlM2VmZGEifQ.FrqZa53PGuVLJI_ayysOeIXJ8CpmB4jbLRs5OuI9H9I' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight market tell decision fire agree.","courseId":"115f7bfc-3819-4a3e-a133-27eaf0499e26","maxScore":83,"minScore":7,"orderIndex":57,"description":"Else rule charge can. Through upon culture result. Understand family medical remain whose investment onto.\nWorry morning gas might long two. Among country right manage return.","estimatedTime":"3 weeks"}'

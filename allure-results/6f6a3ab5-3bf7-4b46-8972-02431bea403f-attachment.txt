@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDE5OjI1OjAxLjY5OTAyMCIsInVzZXJfaWQiOiIyOGJkYTc1MC0xOWM5LTRhZDYtOTljZC1hYjc5ZmUxZjIwZTQifQ.-NIiPmdYqZK9O9cSQSUKw7j4HhbJQZxZFHD7AqrxbdM' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People he space develop court audience.","maxScore":55,"minScore":28,"description":"Indicate throughout growth work near. Kind dog ever with oil market last keep. Phone benefit job realize.\nLetter interesting whose development. Including spend old general.","previewFileId":"0cb24871-eea5-4a1b-aa17-f0ad9c9a5577","estimatedTime":"6 weeks","createdByUserId":"28bda750-19c9-4ad6-99cd-ab79fe1f20e4"}'

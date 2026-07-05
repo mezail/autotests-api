@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA0VDE5OjI0OjU0LjY4MjA1NyIsInVzZXJfaWQiOiI5OTU1MzViNS1lNjVlLTQ4YmMtYTQwMi04MmFhYWNhNmE2MzgifQ.2iupatAGIwwo5lDvdcJml7ksR4EouYxbAPZng_FsAQ4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly note property buy ok professional.","maxScore":65,"minScore":24,"description":"Message pressure food car call pressure believe. Weight across machine sound able product. Cold sport chance two option participant former.","previewFileId":"75973f6c-db4e-4e60-8488-f5987042fdea","estimatedTime":"9 weeks","createdByUserId":"995535b5-e65e-48bc-a402-82aaaca6a638"}'
