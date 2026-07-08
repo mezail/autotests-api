@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE2OjE0OjI5LjQ2MzMwMiIsInVzZXJfaWQiOiI5MDUyNTdkNS03YjVmLTQzODktODJhNC0yY2EzNzQ3ODBlOTUifQ.PMU-pjBJYKleukFZS2gxnunlHDNVUyd0LtpnqVILfgM' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street never personal he seat section.","maxScore":78,"minScore":14,"description":"Phone physical type someone alone. Game right seek old meet. Hope raise society third others old.\nOwn religious reduce model. Enter center six room line fine.","previewFileId":"3ed98614-4ddd-4916-9b89-50d6d2a3f640","estimatedTime":"6 weeks","createdByUserId":"905257d5-7b5f-4389-82a4-2ca374780e95"}'

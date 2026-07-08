@@ -42,7 +42,7 @@ class TestUsers:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    @allure.title("Get user me")  # Добавляем человекочитаемый заголовок
+    @allure.title("Get user me")
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
     @allure.sub_suite(AllureStory.GET_ENTITY)

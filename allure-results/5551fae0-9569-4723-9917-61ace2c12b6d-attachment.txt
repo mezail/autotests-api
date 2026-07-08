@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE2OjE0OjE1LjQ3NDA5NyIsInVzZXJfaWQiOiJmNmQwYmU1Zi05ZjJkLTQ0ZTUtODdjZi1lMGJmYWRjYTFmYzQifQ.Y9dP3_J4O0dpT0KV4PL5mqe7rZAhby8pOUipyg3rqgg' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have process strategy near artist.","maxScore":76,"minScore":1,"description":"Over able peace whose who side. Compare executive hotel until detail. From law look life power respond report.","previewFileId":"f956ddda-1d31-453d-beee-81aa1f834fbd","estimatedTime":"6 weeks","createdByUserId":"f6d0be5f-9f2d-44e5-87cf-e0bfadca1fc4"}'

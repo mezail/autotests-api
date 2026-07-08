@@ -1,6 +1,8 @@
 from httpx import Client
 
-from clients.event_hooks import curl_event_hook
+from clients.event_hooks import curl_event_hook, log_request_event_hook, log_response_event_hook
+
+from config import settings
 
 def get_public_http_client() -> Client:
     """
@@ -8,4 +10,11 @@ def get_public_http_client() -> Client:
 
     :return: Готовый к использованию объект httpx.Client
     """
-    return Client(timeout=100, base_url="http://localhost:8000", event_hooks={"request": [curl_event_hook]})
+    return Client(
+        timeout=settings.http_client.timeout,  # Таймаут теперь берётся из настроек
+        base_url=settings.http_client.client_url,  # Базовый URL также из настроек
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
+            "response": [log_response_event_hook]  # Логируем полученные HTTP-ответы
+                     }
+    )
