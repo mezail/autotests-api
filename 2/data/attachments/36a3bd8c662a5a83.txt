@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjAwLjI4MDU0NiIsInVzZXJfaWQiOiIyMDQ2ODJmMy1kM2I2LTRkMTMtOTUzZS05YzBiNWQxMmEzZjAifQ.7S_k6d_VAqmknsxRDeBhhEbJ3FaeD4Jwy9ttnygn9n8' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People president which suggest.","maxScore":77,"minScore":27,"description":"Surface this I music act person dream budget. However various scientist hit home. Something catch walk perhaps decade according.","previewFileId":"5a02ae17-b336-452a-9e5e-21a233078eec","estimatedTime":"7 weeks","createdByUserId":"204682f3-d3b6-4d13-953e-9c0b5d12a3f0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQzOjU5LjM2NzkyMyIsInVzZXJfaWQiOiJkZjYxNmE2ZS03MmVhLTRmNjYtOTM1MS1mMTI1NDU4MzUyZTMifQ.iKHD3fbdtttpiJJxwxQ90OtlxiCny5AALQyo-_1k9e8' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe century should financial do floor look economic.","maxScore":69,"minScore":9,"description":"Time travel yes pretty. Meeting so gas.\nReligious Democrat person believe myself. Me hundred door partner figure interesting nation. Assume quickly hope dog table her skin song.","previewFileId":"07f2b838-bd23-4ed1-b877-526acec36ed1","estimatedTime":"9 weeks","createdByUserId":"df616a6e-72ea-4f66-9351-f125458352e3"}'

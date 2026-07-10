@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjA0LjE5Njc0NCIsInVzZXJfaWQiOiJjNjU3MzBkZi1jNjkxLTRiZGQtOTU4MC00ODU1Njg1MmJlZGYifQ.LQpTW0fluTYzaGzoa8ziu5WEo4-KUknHbjRkwm7qp30' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually coach great front for support hope.","maxScore":55,"minScore":13,"description":"Wrong space understand such care majority which reflect. Exist about subject whose.\nKitchen upon increase general by mean.\nJust yard design book member. Truth truth pull with hour.","previewFileId":"de125845-3f96-4731-bfe9-ead2401577a5","estimatedTime":"6 weeks","createdByUserId":"c65730df-c691-4bdd-9580-48556852bedf"}'

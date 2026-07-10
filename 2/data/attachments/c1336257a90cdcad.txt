@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjAxLjc2NzIyMCIsInVzZXJfaWQiOiI1MjAwZmYyOC00MTQ0LTQ5MTgtODdmZS0wOGI3ODk4ZTdlNGQifQ.DyU9JOu9-X_pmO68fa8GdmnIzzGRk23OTxG9F8t1Uhg' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise partner past continue.","maxScore":95,"minScore":12,"description":"Likely direction it edge can. Son whole budget somebody suffer yes southern.\nMajor daughter financial. Heart future claim guy. Outside game commercial raise federal.","previewFileId":"a26d2d5f-8be1-4643-893b-fd19c1d3050d","estimatedTime":"9 weeks","createdByUserId":"5200ff28-4144-4918-87fe-08b7898e7e4d"}'

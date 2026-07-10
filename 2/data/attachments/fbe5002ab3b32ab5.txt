@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjAyLjA0MzA1MiIsInVzZXJfaWQiOiJkYzNhYmJjYS0wMjBlLTQwMGYtOTNmZS04NjViYWE5NDE5NDgifQ.KvItAi7JlvGNe7F86VGabfQmkinhWMUlCLlBzAsAUiI' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At bed strategy ten.","maxScore":69,"minScore":9,"description":"Happen city start. Public citizen movie itself collection. Memory those evidence mean player hit.","previewFileId":"e5a4a550-6c74-4048-85a3-21b843035d75","estimatedTime":"4 weeks","createdByUserId":"dc3abbca-020e-400f-93fe-865baa941948"}'

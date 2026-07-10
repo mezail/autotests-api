@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjAzLjI1NjQ3OCIsInVzZXJfaWQiOiIyZmIxZGFjNS1kNzY3LTQ3ZmUtOTY4ZS03MjFiNjAyMGEyN2QifQ.EPnA_F-yRQA5ZeiaAp3Ce7bLTNzzs56SPrKkKn0u4RU' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development remain away leader.","maxScore":87,"minScore":7,"description":"Join economy fly. Grow police while receive exist. Leader table everyone.\nFor hot from peace carry building. Half speak enter seat. Product about stop deal state.","previewFileId":"ace43ea1-2d68-4796-a8f5-9e3ebb6b3ae0","estimatedTime":"9 weeks","createdByUserId":"2fb1dac5-d767-47fe-968e-721b6020a27d"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f20a6573-4816-4a67-9cd4-32d670d89140' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQzOjU5LjM2NzkyMyIsInVzZXJfaWQiOiJkZjYxNmE2ZS03MmVhLTRmNjYtOTM1MS1mMTI1NDU4MzUyZTMifQ.iKHD3fbdtttpiJJxwxQ90OtlxiCny5AALQyo-_1k9e8' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact measure direction spring.","maxScore":76,"minScore":8,"description":"Stand growth certainly property. Face case lead hope next plan.\nPublic page turn particular course song. First bag I back capital final.\nMy catch how care south politics measure.","estimatedTime":"4 weeks"}'

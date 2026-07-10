@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDEzOjQ0OjAyLjk4MjgyOSIsInVzZXJfaWQiOiIxN2JjY2U5Ni00N2NlLTQ0YWYtYjQ5Ny04MTk3YzQ2NDRkNjIifQ.U3yxiSX2_FOdj-OlqYglPe9LQ0WybYBAhGiOPNc3Xv8' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision owner hospital society hair.","maxScore":75,"minScore":5,"description":"Somebody physical meet trip assume stand. College account build time technology animal option community. Resource think party side bed physical fall.","previewFileId":"2cadd383-dd8e-4264-b0e9-3c4580463ccf","estimatedTime":"2 weeks","createdByUserId":"17bcce96-47ce-44af-b497-8197c4644d62"}'
