@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM1LjU5NDUwMSIsInVzZXJfaWQiOiIwZWM4YWVjZi0zMTNkLTQyNDgtOWVkYy0zMjMxM2UxYmVhZTAifQ.WA8xfLxCzQs76c6X1cDFPQNIUZJRXVBZ9sX565-4r1U' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Act phone performance several network group.","maxScore":57,"minScore":12,"description":"Guess forget like special spend follow. Win anything condition itself movie. Mrs popular thank benefit want. Establish imagine major coach represent.","previewFileId":"8ea5061c-e5d8-4285-92f0-689833caa4f4","estimatedTime":"6 weeks","createdByUserId":"0ec8aecf-313d-4248-9edc-32313e1beae0"}'

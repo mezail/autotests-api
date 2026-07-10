@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM2LjUyMzExMSIsInVzZXJfaWQiOiJhOTQ4MTIxMy1kYzYwLTRiZDQtOWNkMC1lYjJhNWYyY2ViMjYifQ.GDRnXtnDPRjoazgN4vSmjjpTYjubbZA8dqfWpwj7YHc' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show candidate pretty.","maxScore":97,"minScore":30,"description":"Throughout determine fly thousand his race decide accept. Series candidate evening church trouble.\nOne from picture do concern charge summer. Build against lay drug far public.","previewFileId":"adab6bc1-81a5-4faa-bd2b-3879b4f4a711","estimatedTime":"6 weeks","createdByUserId":"a9481213-dc60-4bd4-9cd0-eb2a5f2ceb26"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM4LjA2NjE3NCIsInVzZXJfaWQiOiI0M2NkMjVjNS1lMDlhLTQxYmMtODFhNS03NzI3ZmE4Y2JhZGQifQ.36UHVHD6hy8mFBbE2BV2hnM91YitBJfuPSBqKWno_jI' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Others early morning record describe place staff someone.","maxScore":57,"minScore":14,"description":"Central section surface beyond against physical. Subject international religious necessary price. Dream sound create personal way seem reveal something.\nAll condition value across.","previewFileId":"b20c0bb4-3fc6-4a92-9e29-22ea3e18d689","estimatedTime":"5 weeks","createdByUserId":"43cd25c5-e09a-41bc-81a5-7727fa8cbadd"}'

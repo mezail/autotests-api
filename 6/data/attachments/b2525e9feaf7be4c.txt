@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM2Ljc5ODg1NSIsInVzZXJfaWQiOiI4Njc2ODEyNy1kMjAyLTRkN2UtODc1ZS1kMzBlM2VhZjFkNDUifQ.0IK2DFAQlc6k8ysxUo8opldpiVtJ8v_aCx3zFVHG-ok' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player this cell.","maxScore":54,"minScore":27,"description":"Art fear remain rise close carry wonder. Camera ask difference well leader free common.\nThrow attention husband keep. Voice everything resource simple.","previewFileId":"ef4474b9-7e06-4ff3-a1c2-3a2370c21d51","estimatedTime":"5 weeks","createdByUserId":"86768127-d202-4d7e-875e-d30e3eaf1d45"}'

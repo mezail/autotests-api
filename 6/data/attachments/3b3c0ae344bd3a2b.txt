@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM3Ljc5MDgwNiIsInVzZXJfaWQiOiIwOGMwMjYzOS02NDRmLTRiZmQtOGIxYi1iOTU3MjRjOTEwZGIifQ.V5nSd_Ys3mmk1_EO1BwSrRS_KkM4zBdPl2ly5kTo6ZU' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"End throw modern fact do.","maxScore":92,"minScore":14,"description":"Certain activity whatever early. Without sound loss myself they form. Out finally list.\nUs group line scene treatment. Within move military young create he eat. Theory tell house.","previewFileId":"ee0e8822-8756-42e2-a5d7-592d8dde4f18","estimatedTime":"7 weeks","createdByUserId":"08c02639-644f-4bfd-8b1b-b95724c910db"}'

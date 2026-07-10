@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjM1LjU5NDUwMSIsInVzZXJfaWQiOiIwZWM4YWVjZi0zMTNkLTQyNDgtOWVkYy0zMjMxM2UxYmVhZTAifQ.WA8xfLxCzQs76c6X1cDFPQNIUZJRXVBZ9sX565-4r1U' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand him son option station expect.","courseId":"cc0bf0db-d7b0-43e0-8f4a-8b2d407b1066","maxScore":68,"minScore":3,"orderIndex":100,"description":"Style administration less store nothing. Way high activity spend common until college. On stage every change.","estimatedTime":"7 weeks"}'

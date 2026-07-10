@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTEwVDE0OjE3OjMzLjQyNDU2MiIsInVzZXJfaWQiOiI4NjBmYjJhZi1hYTgzLTQyY2QtOGZkNC05N2E2NTU2OWM5ZWEifQ.vUlGdNiRyS7PRJ7nGqfzD7BzJnydRB5yR-7ViCRmbfE' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First modern several day machine look after.","maxScore":73,"minScore":17,"description":"Summer far seven. Physical half artist baby.\nValue whatever what. Fill effort gun address begin.\nWonder near suffer avoid. Win main cut say shoulder none. Born key within build sea your.","previewFileId":"ef8bc9f7-997e-4102-8083-0e5aebd0b5c7","estimatedTime":"10 weeks","createdByUserId":"860fb2af-aa83-42cd-8fd4-97a65569c9ea"}'
