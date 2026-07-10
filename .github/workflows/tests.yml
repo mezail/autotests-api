@@ -58,6 +58,8 @@ jobs:
 
   publish-report:
     runs-on: ubuntu-latest
+
+    steps:
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
