@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE0VDExOjU2OjUzLjUxMDQxNiIsInVzZXJfaWQiOiI5NjBiZTNmNi04ZWZlLTRjMTItOTQxMC1jODAxNmRiNzE0OWUifQ._pgVb6u_U7YY5PFIVR_f9VqUPvkmIxL2LYpVLUsppJU' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tree dark position realize group set pattern list.","maxScore":89,"minScore":15,"description":"Moment nice major. Economic lawyer raise stand. Radio under population education place raise.\nArgue economy success how dog. Understand cut agent bag.","previewFileId":"36b101ff-f51e-4475-a302-67a58a64dab3","estimatedTime":"4 weeks","createdByUserId":"960be3f6-8efe-4c12-9410-c8016db7149e"}'
