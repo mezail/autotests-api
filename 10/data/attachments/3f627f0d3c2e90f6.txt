@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIxLjY1MTIwNyIsInVzZXJfaWQiOiIwZDM4NDI0NS1kZGYyLTRiYjctODA2Yy0wMzZlZjc3ZWQzYWMifQ.XXK0kLuqc_uUw7BRip_ONfpVI5IOgizsUtA6Cge1GVM' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack remain institution yeah.","courseId":"0808400c-1faf-4f3f-b9a7-3c662c725f33","maxScore":66,"minScore":24,"orderIndex":27,"description":"Whatever fact conference learn not. Affect data which. Necessary certain lay but. Exist perhaps police.","estimatedTime":"3 weeks"}'

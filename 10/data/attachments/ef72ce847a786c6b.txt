@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIyLjg1MDY2NSIsInVzZXJfaWQiOiIzYTY4NWI4ZC0xY2YyLTQwZjUtOGEwMS0wZWQ5ZWQ4NzY0OTAifQ.QV94H4h7aAhvePS8RQMCiu82v2g1RirhSlZpIyY5JR4' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred above crime investment cause glass pressure far.","maxScore":94,"minScore":5,"description":"Upon car campaign PM window. So number good on last. Environmental almost research local. Level close condition concern success lay actually.","previewFileId":"799fd8e8-4d94-4b70-b985-8b9937acd50d","estimatedTime":"4 weeks","createdByUserId":"3a685b8d-1cf2-40f5-8a01-0ed9ed876490"}'

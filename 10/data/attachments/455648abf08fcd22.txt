@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIwLjQ4NDYyOSIsInVzZXJfaWQiOiI4ZWU5NTk3OS05Yzc2LTRhZGEtYTNmYy0zMjAyMzM5NjRmMDkifQ.gqkVwCab8DH0OSPxSbUpqa2vpc2qO16_aE55-pd7i5w' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop they second quality country final.","maxScore":82,"minScore":11,"description":"Our mention firm loss often player away ask. Drug woman close act however choose rock since.\nAccording prove similar that hit state more.","previewFileId":"1044263a-17c6-4a7b-8bd5-7653007f9442","estimatedTime":"10 weeks","createdByUserId":"8ee95979-9c76-4ada-a3fc-320233964f09"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIxLjY1MTIwNyIsInVzZXJfaWQiOiIwZDM4NDI0NS1kZGYyLTRiYjctODA2Yy0wMzZlZjc3ZWQzYWMifQ.XXK0kLuqc_uUw7BRip_ONfpVI5IOgizsUtA6Cge1GVM' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar nearly at vote.","maxScore":80,"minScore":29,"description":"Air between finish relationship lay.\nCold young dark left develop financial shake approach. Perhaps first example side hundred. Face skill manager positive year guy.","previewFileId":"60c0b285-b1af-4efd-ae0d-43ccf18f8221","estimatedTime":"1 weeks","createdByUserId":"0d384245-ddf2-4bb7-806c-036ef77ed3ac"}'

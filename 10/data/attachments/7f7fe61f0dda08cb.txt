@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make DELETE request to http://localhost:8000/api/v1/files/d7745d05-72e4-47db-831d-8fc0c63c589c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files/d7745d05-72e4-47db-831d-8fc0c63c589c
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/files/d7745d05-72e4-47db-831d-8fc0c63c589c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 404 Not Found from http://localhost:8000/api/v1/files/d7745d05-72e4-47db-831d-8fc0c63c589c
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 404
+INFO     FILES_ASSERTIONS:files.py:131 Check file not found response
+INFO     ERRORS_ASSERTIONS:errors.py:58 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "details" equals to File not found
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

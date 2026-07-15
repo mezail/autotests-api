@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIxLjM3Mzk2OSIsInVzZXJfaWQiOiIzNDk0MGU3ZS00Yzc2LTQ5MzctYTk2MC03ZGUyYjdlNTA3N2IifQ.D79mSvoP6wcjWdP2qrivTnwjVov4zc-ICL21-QIe7kI' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drug under program almost continue.","courseId":"c0cde5e9-0106-4f58-8c0a-011320ab51b7","maxScore":51,"minScore":15,"orderIndex":25,"description":"Surface prevent loss high break west seek player. Or benefit population past possible message. Bill teacher environmental data option high strong.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjIxLjM3Mzk2OSIsInVzZXJfaWQiOiIzNDk0MGU3ZS00Yzc2LTQ5MzctYTk2MC03ZGUyYjdlNTA3N2IifQ.D79mSvoP6wcjWdP2qrivTnwjVov4zc-ICL21-QIe7kI' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window increase official.","maxScore":87,"minScore":8,"description":"Occur fund wide. Wish although three offer. Foot range TV marriage election already.","previewFileId":"2236f194-8635-4917-8844-333a87c3a0ec","estimatedTime":"8 weeks","createdByUserId":"34940e7e-4c76-4937-a960-7de2b7e5077b"}'

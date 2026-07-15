@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA5OjA4OjE5Ljg5ODM0OCIsInVzZXJfaWQiOiIxZjM2YWM1Ni0yYWNiLTRlMzUtOWY4ZC1lZmE1YjFiMDU1OTYifQ.MxJ1bzwi8GXCnjzt6eQKPB-mhKOGBmfkf_DPPPkHtDA' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent build may.","maxScore":71,"minScore":20,"description":"Far choice easy it herself. In lead pick less yes radio structure.","previewFileId":"45864004-d4bb-4622-bd4a-0d468a6ff9d1","estimatedTime":"2 weeks","createdByUserId":"1f36ac56-2acb-4e35-9f8d-efa5b1b05596"}'
