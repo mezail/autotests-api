@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjIyLjQzNTY3MiIsInVzZXJfaWQiOiJlNDNiYTI4OC1mNTBkLTRhYTAtYjY5My1lNWVkOWI5ODc2NGUifQ.-0MpXpaq3sfBm4i_w-8eAGNKAZpJnoXpghO43PIfBqY' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing respond here class.","maxScore":91,"minScore":14,"description":"Happy because behavior amount service guess. Assume suffer late focus surface statement. Well visit while role relationship usually understand. Explain herself yes along cause total.","previewFileId":"3306d0c8-cc88-4d39-a70d-18a612994067","estimatedTime":"1 weeks","createdByUserId":"e43ba288-f50d-4aa0-b693-e5ed9b98764e"}'

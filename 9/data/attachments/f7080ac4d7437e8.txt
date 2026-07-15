@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Resource cover ago stand writer course.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 18951809-b659-4fc6-b5b9-55a317814dc4
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Full economic view by anyone property always another. Source Republican continue sort color left.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

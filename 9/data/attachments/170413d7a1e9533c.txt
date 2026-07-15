@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjIxLjE5OTc5MSIsInVzZXJfaWQiOiI1MzljNzUyNS1iMmNlLTQwNzQtOTZjNi1mZDMzNDQ4YmIxZGYifQ.JFrtvUMrUgz7IVdB-SvikiOReF9m6GDh8KTBdI5ID9I' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major option he street add mention responsibility.","maxScore":52,"minScore":17,"description":"Industry heart too. Owner guess hit teach.\nAddress agreement nothing ok herself agent. Recently course yes office cold least.","previewFileId":"c9177ffb-8a2a-43f9-a765-68f39989ad03","estimatedTime":"4 weeks","createdByUserId":"539c7525-b2ce-4074-96c6-fd33448bb1df"}'

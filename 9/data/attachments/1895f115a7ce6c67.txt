@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjIxLjQ3MzE0MSIsInVzZXJfaWQiOiJlZTMyYWMyNC1hMjgzLTRlMDktYjYwMi1hZmYyMDU0ZmYxYjQifQ.T4XjX6fB7KTzIbquP8LAgouFAG4uaYYq6Nf4H7L1IkI' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor soldier memory I.","courseId":"cae2b774-0c88-43dc-8e8c-a380ca27effc","maxScore":75,"minScore":30,"orderIndex":1,"description":"Run carry information close bill dark continue. Girl represent charge condition rise nearly.\nLay lawyer think address our six throw let. Eat direction least media message.","estimatedTime":"3 weeks"}'

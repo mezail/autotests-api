@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cda054c6-7f4f-40e8-a85b-6f44fef2830e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjE3LjYzNTkxNyIsInVzZXJfaWQiOiI2MWY5YmRhNi05MTNmLTRiMzgtOTQ1NC0xMjE2OWQ4MWJiODkifQ.QOXt4m3Hi7l9Silyg5qtJO5lBXMN_A2aW2rMW2AaW40' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full shoulder soldier simply color.","maxScore":56,"minScore":29,"description":"Bring notice skill news wish. I rise guy lawyer beyond concern. Operation word paper smile bit.\nStrategy win improve bag us. Person best study.","estimatedTime":"2 weeks"}'

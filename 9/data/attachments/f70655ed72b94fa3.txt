@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjE4LjUyNzYzMSIsInVzZXJfaWQiOiI1N2UxYzI0NS00ZDAxLTQ3YjItOWIzZi0xODYxZTRlNjM5NTgifQ.NmeYIIIxF5m7XUoWMrGVEBuLH9d3UeimQHi0G5bc6Dg' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Others right prove participant as actually.","maxScore":69,"minScore":13,"description":"Forward page something maybe. Yeah less but recently. Force without mother experience event.\nPhone force economic by per. Discussion college just like go system. Water politics far benefit end.","previewFileId":"a0a7b4d7-3e9c-461e-8942-4e4d15fe3890","estimatedTime":"2 weeks","createdByUserId":"57e1c245-4d01-47b2-9b3f-1861e4e63958"}'

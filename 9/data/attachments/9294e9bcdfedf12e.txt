@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTE1VDA4OjU0OjIwLjI3NjkzMCIsInVzZXJfaWQiOiJjNmZmMDczZC05OGY5LTQ2ZjgtOWU2NS02YjlhMmI5YjIzYzUifQ.933iQ4JX49jSsTs22Y8iGDAzB3Rs_vJys5ja4Hp1BDc' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table require really price assume.","courseId":"ef0d02a5-e5b6-4698-af8a-145cb6539c89","maxScore":99,"minScore":7,"orderIndex":19,"description":"To class machine analysis. Effort help necessary war. Customer because realize doctor mission.\nCould century leave. Able since girl sell.","estimatedTime":"4 weeks"}'

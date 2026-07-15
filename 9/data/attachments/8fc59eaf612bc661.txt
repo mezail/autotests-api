@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/cda054c6-7f4f-40e8-a85b-6f44fef2830e
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/cda054c6-7f4f-40e8-a85b-6f44fef2830e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Full shoulder soldier simply color.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Bring notice skill news wish. I rise guy lawyer beyond concern. Operation word paper smile bit.
+Strategy win improve bag us. Person best study.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
